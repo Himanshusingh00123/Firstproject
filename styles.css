@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    background-color: #f8f9fa;
+  }
+  .navbar {
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    background-image: url("himanshu_123.jpg");
+    background-size: cover;
+    height: 40px;
+    width: 205px;
+    margin-left: 30px;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+    margin-right: 5px;
+  }
+  .nav-links p,
+  .nav-links a {
+    color: antiquewhite;
+    font-size: 1.8rem;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .nav-links .home {
+    font-size: 1.8rem;
+  }
+  
+  .nav-links .home:hover{
+    background-color: orange;
+    color: black;
+    transition: all 0.3s ease;
+    border-radius: 7px;
+  }
+  .nav-links .signin:hover{
+    background-color: orange;
+    color: black;
+    transition: all 0.3s ease;
+    border-radius: 7px;
+    margin-bottom: 17px;
+  }
+  .nav-links .about:hover{
+    background-color: orange;
+    color: black;
+    transition: all 0.3s ease;
+    border-radius: 7px;
+    margin-bottom: 17px;
+  }
+  .nav-links .contact:hover{
+    background-color: orange;
+    color: black;
+    transition: all 0.3s ease;
+    border-radius: 7px;
+    margin-bottom: 17px;
+  }
+  
+  .nav-links .feedback:hover {
+    background-color: orange;
+    color: black;
+    transition: all 0.3s ease;
+    border-radius: 7px;
+    margin-bottom: 17px;
+  }
+  
+  .carousel img {
+    height: 500px;
+    object-fit: cover;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .logo {
+      height: 40px;
+      width: 120px;
+    }
+  
+    .nav-links {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    .nav-links p,
+    .nav-links a {
+      font-size: 1.8rem;
+    }
+}
+#carouselExampleIndicators{
+    border-top:1.5px solid white;
+    border-bottom: 3.5px solid white;
+}
